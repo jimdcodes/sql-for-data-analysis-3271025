@@ -1,4 +1,4 @@
-SELECT State,
+SELECT State,TotalDue,
   AVG(TotalDue) as Avg_Due,
   MIN(TotalDue) as Min_Due,
   MAX(TotalDue) as Max_Due,

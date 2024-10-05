@@ -1,7 +1,7 @@
 SELECT Customer.CustomerID,
   Customer.FirstName,
   Customer.LastName,
-  COUNT(1) as NUM_ORDERS
+  COUNT(0) as NUM_ORDERS
 FROM Customer
   JOIN Orders ON Customer.CustomerID = Orders.CustomerID
 GROUP BY Customer.CustomerID,

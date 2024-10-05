@@ -1,4 +1,4 @@
-SELECT FirstName, LastName, COUNT(1)
+SELECT FirstName, LastName, Count(1)
 FROM Customer
-GROUP BY FirstName, LastName
+GROUP BY FirstName
 HAVING COUNT(1) > 1
